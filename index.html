@@ -3,25 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Kid Sampson</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
-    <header>
+    <header class="site-header clearfix">
       <h1>Kid Sampson</h1>
-      <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>blog</li>
-        <li>contact</li>
-      </ul>
+      <nav class="main-nav">
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-      <main>
-<h1> Uyen is cool! </h1>
+    <main>
+      <section class="billboard">
+          <h2>Welcome to my terrible website</h2>
+
+        </section>
+        <div class="column-wrapper clearfix">
+          <section class="main-col">
+            <h3>Whatever!</h3>
+            <p id="about" class="into-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius orci velit, sit amet vulputate justo placerat a. Curabitur ut odio orci. Fusce lacinia tempor sem vel pulvinar. Ut dignissim magna ac turpis tristique ultrices. Mauris congue in metus aliquam convallis. Ut malesuada dictum urna, a luctus dolor. Ut vel dignissim ante, non semper ipsum.</p>
+          </section>
+          <aside class="sidebar-col">
+            <h4>Sign Up</h4>
+            <p>sign up for some reason? There really is no point in doing so.</p>
+          </aside>
+      </div>
       </main>
-    <footer>
-      <p>
+    <footer id="footer" class="main-footer clearfix">
+      <p class="copyright">
         &copy; 2016 Kid Sampson
       </p>
+      <ul class="footer-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </footer>
   </body>
 </html>
